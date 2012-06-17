@@ -1,4 +1,5 @@
 par( mfrow = c( 2, 3 ) )
+# Notes
 
 x <- c(1:100)
 plot(x, type="l",main = "plot 1", cex.lab = 1.1)
