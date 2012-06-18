@@ -1,4 +1,7 @@
 library(ggplot2)
+# library(tikzDevice)
+# tikzDevice(device='tikz')
+device='tikz'
 par( mfrow = c( 2, 3 ) )
 # Notes for printout.
 # Columns of plots ...
