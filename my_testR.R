@@ -1,7 +1,7 @@
 library(ggplot2)
 par( mfrow = c( 2, 3 ) )
 # Notes for printout.
-# Columns of plots
+# Columns of plots ...
 x <- c(1:100)
 plot(x, type="l",main = "plot 1", cex.lab = 1.1)
 
