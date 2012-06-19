@@ -1,0 +1,10 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+qplot(1:10, 1:10) + opts(title = sprintf("$\\mathrm{d}\\mathbf{x}_{t} = \\alpha[(\\theta
+- \\mathbf{x}_{t})\\mathrm{d}t + %d]\\mathrm{d}B_{t}$", 4))
+
+
+\end{document}
